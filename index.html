@@ -1,0 +1,88 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Vijaylistz.github.com</title>
+  <meta name="description" content="Attempt at a github pages blog type thing ">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Vijaylistz.github.com</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Attempt at a github pages blog type thing </p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/vijaylistz" class="code">View Vijaylistz.github.com on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h3>What is this, really?</h3>
+
+<p>Well lets give this a try.  I'm simultaneously trying ruhroh and jekyl bootstrap, because people seem to use that.  The plan is to start another account for hosting projects I have going on right now and devoting this to my Algorithms in C/Design Patterns in Java/Learn Computer Science side project.  At some point if I do something worth sharing I will make a third account.  If the third account does end up happening it will probably initially have the perl scripts I've written that actually work.  New account name for projects is VijayEdwin, creative I know.  And now to see if I get this github Markdown thing a test in the spirit of this account: </p>
+
+<p>First you must allocate</p>
+
+<pre><code>struct node* newNode;
+newNode = malloc(sizeof(struct node));
+newNode -&gt;date = 46290;
+</code></pre>
+
+<p>Point Assignment step:  You <em>share</em> with the head's <em>next</em>.  Meaning whatever head points to 
+newNode will also point to it.  Currently head point to the first struct in the list.  Nice.</p>
+
+<pre><code>newNode -&gt;next = head;
+</code></pre>
+
+<p>Keep in mind at this point Head still point to the first item (now second after insertion).  So this final step point head to newNode (the node we just inserted in the previous step).  Cool</p>
+
+<pre><code>head = newNode;
+</code></pre>
+
+<p><strong>Node Inserted</strong></p>
+
+<h3>Goals</h3>
+
+<p>So more specifically I want to really go through many of the tree and linked list algorithms using C pointer syntax.  I think these ideas are expressed using the concept of a pointer and C implements pointers, so why not do it that way?  I've tried this in java using Node classes, but I've been drawn to C (it has quite the reputation), so that what's happening.</p>
+
+<p>Additionally I want to go through some the popular design patterns and write them down in java.  This became especially when I started using the observer pattern in my senior project and finally realized how one could use these things effectively (apparently most people do <em>not</em> use the effectively).   </p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+
+      <p><a href="https://github.com/vijaylistz" class="avatar"><img src="https://secure.gravatar.com/avatar/5ceec37e21a9de580c030cc3ef3980de?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a>View <a href="https://github.com/vijaylistz">vijaylistz</a> on <a href="https://www.github.com">GitHub</a></p>
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/vijaylistz/vijaylistz.github.com/tarball/master" class="tar">tar</a><a href="https://github.com/vijaylistz/vijaylistz.github.com/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
